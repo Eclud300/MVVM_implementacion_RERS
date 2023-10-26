@@ -7,14 +7,14 @@ using Xamarin.Forms;
 
 namespace MVVM_implementacion_RERS.VistaModelo
 {
-    class VMpatron : BaseViewModel
+    class VMpagina1 : BaseViewModel
 
     {
         #region VARIABLES
         string _Texto;
         #endregion
         #region CONTRUCTOR
-          public VMpatron(INavigation navigation)
+        public VMpagina1(INavigation navigation)
         {
             Navigation = navigation;
         }
@@ -50,8 +50,3 @@ namespace MVVM_implementacion_RERS.VistaModelo
         #endregion
     }
 }
-
-
-
-
-
