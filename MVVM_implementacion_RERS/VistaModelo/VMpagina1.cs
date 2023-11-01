@@ -31,9 +31,10 @@ namespace MVVM_implementacion_RERS.VistaModelo
         }
         #endregion
         #region PROCESOS
-        public async Task ProcesoAsyncrono()
+        public async Task Alerta()
 
         {
+            await DisplayAlert("Titulo", "Mensaje", "Ok");
 
 
         }
@@ -44,7 +45,7 @@ namespace MVVM_implementacion_RERS.VistaModelo
         }
         #endregion
         #region
-        public ICommand ProcesoAsyncommand => new Command(async () => await ProcesoAsyncrono());
+        public ICommand Alertacommand => new Command(async () => await Alerta());
 
         public ICommand ProcesoSimpCommand => new Command(ProcesoSimple);
         #endregion
