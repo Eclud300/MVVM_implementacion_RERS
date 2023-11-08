@@ -12,7 +12,7 @@ namespace MVVM_implementacion_RERS
     {
         public MainPage()
         {
-            InitializeComponent(j);
+            InitializeComponent();
         }
 
         private void btnGuardar_Clicked(object sender, EventArgs e)
