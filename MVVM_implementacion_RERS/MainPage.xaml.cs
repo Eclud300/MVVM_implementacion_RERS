@@ -12,7 +12,7 @@ namespace MVVM_implementacion_RERS
     {
         public MainPage()
         {
-            InitializeComponent();
+            InitializeComponent(j);
         }
     }
 }
