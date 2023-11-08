@@ -14,5 +14,15 @@ namespace MVVM_implementacion_RERS
         {
             InitializeComponent(j);
         }
+
+        private void btnGuardar_Clicked(object sender, EventArgs e)
+        {
+            Alerta();
+        }
+
+        private void Alerta()
+        {
+            DisplayAlert("Alerta", "Esta es una alerta", "Ok");
+        }
     }
 }
